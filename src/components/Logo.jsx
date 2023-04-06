@@ -12,11 +12,11 @@ export default function Logo ({ reversed }) {
     <Link href="/" className={reversed ? hoverReversed : hover}>
     {!reversed
       ? (theme === 'dark' || theme === undefined)
-          ? <Image priority={true} layout="responsive" src="/logo_fg2.png" width="50" height="50" alt="Logo-FG" className='h-12 w-12' />
-          : <Image priority={true} layout="responsive" src="/image.png" width="50" height="50" alt="Logo-FG" className='h-12 w-12' />
+          ? <Image priority={true} src="/logo_fg2.png" width={50} height={50} alt="Logo-FG" className='h-12 w-12' />
+          : <Image priority={true} src="/image.png" width={50} height={50} alt="Logo-FG" className='h-12 w-12' />
       : (theme !== 'dark')
-          ? <Image priority={true} layout="responsive" src="/logo_fg2.png" width="50" height="50" alt="Logo-FG" className='h-12 w-12' />
-          : <Image priority={true} layout="responsive" src="/image.png" width="50" height="50" alt="Logo-FG" className='h-12 w-12' />
+          ? <Image priority={true} src="/logo_fg2.png" width={50} height={50} alt="Logo-FG" className='h-12 w-12' />
+          : <Image priority={true} src="/image.png" width={50} height={50} alt="Logo-FG" className='h-12 w-12' />
     }
     </Link>
   )

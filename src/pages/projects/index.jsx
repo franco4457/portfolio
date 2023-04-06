@@ -22,12 +22,13 @@ export default function Projects () {
                 <div className="flex justify-center w-full rounded-lg  overflow-hidden my-4">
                   <Link href={link}>
                     <Image
-                    priority={true} layout="responsive"
+                    priority={true}
                       className="object-cover aspect-video hover:scale-125 transition duration-300 w-full"
                       src={src}
                       alt={alt}
-                      width="500"
-                      height="300"
+                      width={500}
+                      height={300}
+                      layout='responsive'
                     />
                   </Link>
                 </div>
@@ -46,8 +47,8 @@ export default function Projects () {
                           <Image
                             src={src}
                             alt={name}
-                            width="50"
-                            height="50"
+                            width={50}
+                            height={50}
                             className="m-auto hover:scale-110 hover:rotate-12 transition"
                           />
                         </>
