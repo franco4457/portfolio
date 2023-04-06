@@ -1,4 +1,4 @@
-import Input from '@/components/input'
+import Input from '@/components/Input'
 import { sendContactForm } from '@/lib/api'
 import { useState } from 'react'
 import { Toaster, toast } from 'react-hot-toast'
