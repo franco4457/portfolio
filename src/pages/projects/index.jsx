@@ -9,7 +9,7 @@ export default function Projects () {
         <h1 className="text-3xl md:text-6xl font-bold pb-4 text-transparent bg-gradient-to-t from-amber-400 bg-clip-text to-neutral-600 ">
           Proyectos
         </h1>
-        <div className="flex  snap-x snap-mandatory  m-auto overflow-x-auto gap-4">
+        <div className="flex  snap-x snap-mandatory  m-auto overflow-x-auto md:overflow-y-auto md:snap-y md:flex-col gap-4">
           {projects.map(({ src, alt, text, title, techs, link, icon }, i) => (
             <>
               <div
