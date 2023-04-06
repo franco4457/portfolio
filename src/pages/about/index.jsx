@@ -11,7 +11,7 @@ export default function About () {
           <div className="flex flex-col space-y-5 items-center  md:flex-row md:space-y-0 md:space-x-4">
             <div className="md:mt-2 md:w-1/2">
               <Image
-              loading='lazy'
+              loading='lazy' priority={true}
                 src="/selfis.jpg"
                 alt="ImageMe"
                 width="350"

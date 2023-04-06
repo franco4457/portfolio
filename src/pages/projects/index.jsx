@@ -22,7 +22,7 @@ export default function Projects () {
                 <div className="flex justify-center w-full rounded-lg  overflow-hidden my-4">
                   <Link href={link}>
                     <Image
-                    loading='lazy'
+                    loading='lazy' priority={true}
                       className="object-cover aspect-video hover:scale-125 transition duration-300 w-full"
                       src={src}
                       alt={alt}
