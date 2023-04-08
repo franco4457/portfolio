@@ -36,12 +36,19 @@ export const projects = [
     title: 'Rick & Morty App',
     text: (
       <>
-        Mi primer proyecto con <strong>React</strong> en el cual aprendí como
-        crear una aplicación desde 0, como funciona <strong>Redux</strong>,
-        crear un servidor con <strong>Express</strong> y crear una base de datos{' '}
-        <strong>SQL</strong>, crear un <strong>registro de usuarios</strong> y
-        poder
-        <strong> agregar</strong> personajes a favoritos
+        Mi primer proyecto<strong> FullStack</strong> consistió en la creación
+        del frontend con
+        <strong> React, Redux y CSS puro</strong>, mientras que el backend se
+        construyó con una
+        <strong> REST API</strong> de <strong>Node.js</strong> creada con
+        <strong> Express</strong> y una base de datos <strong>PostgreSQL</strong>
+        . Aprendí a crear un <strong>registro de usuarios</strong>, implementar
+        <strong> autenticación</strong> con
+        <strong> hash de contraseñas</strong> mediante la biblioteca bcrypt para
+        garantizar la seguridad de los datos de los usuarios,
+        <strong> autorización</strong> mediante el uso de
+        <strong> JsonWebTokens</strong> y mantener las sesiones de los usuarios
+        mediante el uso del almacenamiento local (local storage).
       </>
     ),
     techs: [
