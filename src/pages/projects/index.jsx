@@ -20,7 +20,7 @@ export default function Projects () {
                   {title}
                 </h2>
                 <div className="flex justify-center w-full rounded-lg  overflow-hidden my-4">
-                  <Link href={link}>
+                  <Link href={link} target='_blank'>
                     <Image
                     priority={true}
                       className="object-cover aspect-video hover:scale-125 transition duration-300 w-full"
@@ -28,7 +28,7 @@ export default function Projects () {
                       alt={alt}
                       width={500}
                       height={300}
-                      layout='responsive'
+                      // fill
                     />
                   </Link>
                 </div>

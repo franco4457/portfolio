@@ -12,7 +12,7 @@ export default function Experiences () {
           <h3 className="text-lg md:text-xl font-medium">
             Henry{' '}
             <span className="text-base md:text-lg text-zinc-500 font-normal">
-              ~ mar. 2023 - actualidad
+              ~ feb. 2023 - may. 2023
             </span>
           </h3>
           <h4 className="text-lg md:text-xl">
