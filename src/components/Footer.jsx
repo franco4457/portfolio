@@ -9,17 +9,17 @@ export default function Footer () {
       <footer className="flex justify-center w-full">
         <ul className='flex flex-row'>
           <li>
-            <Link href="https://github.com/franco4457">
+            <Link href="https://github.com/franco4457" target='_blank'>
             <BsGithub className={STYLES}/>
             </Link>
           </li>
           <li>
-            <Link href="https://www.linkedin.com/in/francoegi/">
+            <Link href="https://www.linkedin.com/in/francoegi/" target='_blank'>
             <BsLinkedin className={STYLES}/>
             </Link>
           </li>
           <li>
-            <Link href="https://drive.google.com/file/d/1jy7RjknXOuaCCCVhegdx103NPqKckZYk/view?usp=share_link">
+            <Link href="https://drive.google.com/file/d/1Rz2vRn6FaNXnVIX6NmRETfaLOaBScAxz/view?usp=share_link" target='_blank'>
             <FaFileDownload className={STYLES}/>
             </Link>
           </li>
