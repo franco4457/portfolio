@@ -3,7 +3,7 @@ export default function Experiences () {
     <>
       <div className="text-center pt-24 w-full">
         <h1 className="text-3xl md:text-6xl font-bold pb-4 text-transparent bg-gradient-to-t from-amber-400 bg-clip-text to-neutral-600 ">
-          Expreciencia
+          Experiencia
         </h1>
         <div className="flex flex-col text-start pt-4 mx-4 gap-2">
           <h2 className="text-xl md:text-3xl font-semibold pb-2 ">
