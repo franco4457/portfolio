@@ -27,7 +27,7 @@ export default function Home () {
             </Link>
           </li>
           <li>
-            <Link href="https://drive.google.com/file/d/1Rz2vRn6FaNXnVIX6NmRETfaLOaBScAxz/view?usp=share_link" target='_blank'>
+            <Link href="https://drive.google.com/file/d/1QoYyvWCWoMx4p_8O_pc5JAVkPLL0EWj5/view?usp=sharing" target='_blank'>
               <button className="p-2 m-2 rounded-md ring-2 dark:ring-white ring-black border-2 border-current hover:-translate-y-1 transition-transform flex flex-row justify-center items-center bg-stone-900 dark:bg-zinc-100 dark:text-stone-900 text-zinc-100 ">
                 Decargar CV
                 <FaFileDownload className='w-6 h-6 ml-2'/>
