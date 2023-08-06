@@ -19,7 +19,7 @@ export default function Footer () {
             </Link>
           </li>
           <li>
-            <Link href="https://drive.google.com/file/d/1QoYyvWCWoMx4p_8O_pc5JAVkPLL0EWj5/view?usp=sharing" target='_blank'>
+            <Link href="https://drive.google.com/file/d/1w-WdFmovb561hmK8oB57iKprazONWZ0h/view?usp=sharing" target='_blank'>
             <FaFileDownload className={STYLES}/>
             </Link>
           </li>
